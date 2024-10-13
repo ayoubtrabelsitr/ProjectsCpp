@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Animals.cpp" />
     <ClCompile Include="operations.cpp" />
+    <ClCompile Include="rational.cpp" />
     <ClCompile Include="student.cpp" />
     <ClCompile Include="Variables.cpp" />
   </ItemGroup>
