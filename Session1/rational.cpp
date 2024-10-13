@@ -11,17 +11,18 @@ using std::string;
 
 
 class Rational {
-	int n{};
-	int d{};
+	int n{0};
+	int d{1};
 public:
-	Rational();
+	Rational(int numerator = 0, int denominator = 1) :n(numerator), d(denominator) {};//default constructor
 	~Rational();
-
+	int getN();
+	int getD();
 
 
 
 };
-Rational::Rational()
+Rational::Rational(int numerator = 0, int denominator = 1)
 {
 	
 }
