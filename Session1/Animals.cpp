@@ -20,6 +20,8 @@ public :
 	//void print() const;
 };
 
+//implementation
+
 Animal::Animal():type(none),name(none), sound(none) {
 	cout << "Default construcur \n";
 }
@@ -34,7 +36,7 @@ Animal::~Animal() {
 
 	cout << format("Hello Deconstructor \n");
 }
-
+//
 //int main()
 //{
 //	Animal dog{};

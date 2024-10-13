@@ -89,13 +89,13 @@ Rational::~Rational() {
     n = 0; d = 1;
 }
 
-
+/*
 int main() {
 
-    Rational a{ 8 };         // 7/1
+    Rational a{ 8 };         
     cout << format("a is: {} = {}\n", a.raw_str(), a.str());
 
-    Rational b(35, 15);     // 5/3
+    Rational b(35, 15);     
     cout << format("b is: {} = {}\n", b.raw_str(), b.str());
 
     auto c = b;     // copy constructor
@@ -118,3 +118,4 @@ int main() {
     cout << format("a * b = {}\n", (a * b).str());
     cout << format("a / b = {}\n", (a / b).str());
 }
+*/

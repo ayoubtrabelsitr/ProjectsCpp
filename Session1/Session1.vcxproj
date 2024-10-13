@@ -23,6 +23,7 @@
     <ClCompile Include="operations.cpp" />
     <ClCompile Include="rational.cpp" />
     <ClCompile Include="student.cpp" />
+    <ClCompile Include="template.cpp" />
     <ClCompile Include="Variables.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
