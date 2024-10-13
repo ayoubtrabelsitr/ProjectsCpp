@@ -1,29 +1,29 @@
 
-#include <format>
-#include <iostream>
-#include <vector>
-
-using std::cout;
-using std::format;
-
-
-
-using points_t = uint32_t;
-using rank_t = uint64_t;
-
-struct score {
-
-	points_t p{};
-	rank_t r{};
-};
-
-const size_t byte{ 8 };
-static int func()
-{
-	static int i{ 7 };
-	return i++;
-
-}
+//#include <format>
+//#include <iostream>
+//#include <vector>
+//
+//using std::cout;
+//using std::format;
+//
+//
+//
+//using points_t = uint32_t;
+//using rank_t = uint64_t;
+//
+//struct score {
+//
+//	points_t p{};
+//	rank_t r{};
+//};
+//
+//const size_t byte{ 8 };
+//static int func()
+//{
+//	static int i{ 7 };
+//	return i++;
+//
+//}
 
 /*
 int main()

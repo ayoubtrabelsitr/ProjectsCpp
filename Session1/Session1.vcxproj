@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Animals.cpp" />
     <ClCompile Include="operations.cpp" />
     <ClCompile Include="student.cpp" />
     <ClCompile Include="Variables.cpp" />

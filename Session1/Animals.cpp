@@ -1,7 +1,7 @@
 
 #include<format>
 #include<iostream>
-
+#include <string>
 using std::format;
 using std::cout;
 using std::string;
@@ -14,8 +14,8 @@ class Animal {
 public :
 	Animal();
 	Animal(const string& type, const string& name, const string& sound);
-	~Animal();//destructor
-	void print() const;
+	//~Animal();//destructor
+	//void print() const;
 };
 Animal::Animal() {
 	cout << "Default construcur \n";
@@ -27,5 +27,6 @@ Animal::Animal(const string& type, const string& name, const string& sound)
 }
 int main()
 {
-
+	Animal dog{};
+	Animal b("goat", "bob", "bah");
 }
