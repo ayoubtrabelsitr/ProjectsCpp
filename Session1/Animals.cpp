@@ -14,6 +14,18 @@ class Animal {
 public :
 	Animal();
 	Animal(const string& type, const string& name, const string& sound);
-	Animal(const Animal&);//Copy constructor
 	~Animal();//destructor
-};//aaaaaa
+	void print() const;
+};
+Animal::Animal() {
+	cout << "Default construcur \n";
+}
+Animal::Animal(const string& type, const string& name, const string& sound)
+	: type(type), name(name), sound(sound)
+{
+	cout << "Constructor with arguments\n";
+}
+int main()
+{
+
+}
