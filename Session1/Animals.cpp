@@ -16,4 +16,4 @@ public :
 	Animal(const string& type, const string& name, const string& sound);
 	Animal(const Animal&);//Copy constructor
 	~Animal();//destructor
-};
+};//aaaaaa
