@@ -36,11 +36,11 @@ Animal::~Animal() {
 
 	cout << format("Hello Deconstructor \n");
 }
-//
-//int main()
-//{
-//	Animal dog{};
-//	Animal b("goat", "bob", "bah");
-//
-//	cout << format("End of Main \n");
-//}
+
+int main()
+{
+	Animal dog{};
+	Animal b("goat", "bob", "bah");
+
+	cout << format("End of Main \n");
+}

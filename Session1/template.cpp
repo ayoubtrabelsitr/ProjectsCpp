@@ -18,7 +18,7 @@ T factorial(T n) {
 	return result;
 }
 
-/*int main()
+int main()
 {
 	int x{5};
 	long long unsigned int y{6};
@@ -27,4 +27,4 @@ T factorial(T n) {
 	cout << format("x! is {}\n", factorial(x));
 	cout << format("y! is {}\n", factorial(y));
 	cout << format("y! is {}\n", factorial(z));
-} */
+} 
