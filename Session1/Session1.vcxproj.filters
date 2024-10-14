@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Variables.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
     <ClCompile Include="operations.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
@@ -31,6 +28,12 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="template.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="STL.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

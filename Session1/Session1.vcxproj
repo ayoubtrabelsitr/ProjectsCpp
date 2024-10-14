@@ -22,9 +22,10 @@
     <ClCompile Include="Animals.cpp" />
     <ClCompile Include="operations.cpp" />
     <ClCompile Include="rational.cpp" />
+    <ClCompile Include="STL.cpp" />
     <ClCompile Include="student.cpp" />
     <ClCompile Include="template.cpp" />
-    <ClCompile Include="Variables.cpp" />
+    <ClCompile Include="vector.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
